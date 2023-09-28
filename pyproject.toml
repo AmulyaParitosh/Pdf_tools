@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pdf-tools"
+version = "0.1.0"
+description = ""
+authors = ["Amulya Paritosh <amulya1171@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pdf_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
